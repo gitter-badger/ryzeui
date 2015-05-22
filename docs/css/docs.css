@@ -185,3 +185,78 @@ input[type="search"] {
 input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
   padding: 0; }
+
+.esc-fluid {
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+  .esc-fluid:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+@media screen and (max-width: 767px) {
+  .esc {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+    .esc:after {
+      content: " ";
+      display: block;
+      clear: both; } }
+@media screen and (min-width: 768px) {
+  .esc {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto; }
+    .esc:after {
+      content: " ";
+      display: block;
+      clear: both; } }
+@media screen and (min-width: 970px) {
+  .esc {
+    max-width: 970px;
+    margin-left: auto;
+    margin-right: auto; }
+    .esc:after {
+      content: " ";
+      display: block;
+      clear: both; } }
+@media screen and (min-width: 1200px) {
+  .esc {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto; }
+    .esc:after {
+      content: " ";
+      display: block;
+      clear: both; } }
+
+@media screen and (max-width: 767px) {
+  .esc-sm {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+    .esc-sm:after {
+      content: " ";
+      display: block;
+      clear: both; } }
+@media screen and (min-width: 768px) {
+  .esc-sm {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto; }
+    .esc-sm:after {
+      content: " ";
+      display: block;
+      clear: both; } }
+
+.esc-row {
+  float: left;
+  width: 100%; }
+  .esc-row:before, .esc-row:after {
+    content: " ";
+    display: table; }
+  .esc-row:after {
+    clear: both; }

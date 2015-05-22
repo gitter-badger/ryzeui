@@ -1,5 +1,9 @@
 //  Esportsify UI
-//
+//  Setup ESUI
 //
 
-@import "esui/buttons"
+@import "esui/config";
+@import 'esui/mixins';
+@import "esui/skeleton";
+@import "esui/colors";
+@import "esui/buttons";
