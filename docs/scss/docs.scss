@@ -7,3 +7,41 @@
 @import '../../scss/normalize';
 @import '../../scss/susy';
 @import '../../scss/esui';
+
+// Google Fonts
+//
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  @include font-smoothing;
+}
+
+// Documentation
+//
+.doc-hero {
+  float: left;
+  clear: both;
+  width: 100%;
+  padding: 130px;
+  background: $night;
+  text-align: center;
+  color: #fff;
+  img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+  }
+  h1 {
+    font-size: 38px;
+    margin-bottom: 6px;
+  }
+  cite {
+    font-size: 28px;
+    font-weight: 300;
+    font-style: normal;
+  }
+  iframe {
+    margin: 15px 5px;
+  }
+}

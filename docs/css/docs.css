@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
 article,
 aside,
 details,
@@ -199,7 +200,8 @@ html {
 
 body {
   min-height: 100vh;
-  background: #f8f8f8; }
+  background: #f8f8f8;
+  font-size: 16px; }
 
 .esc-fluid {
   width: 100%;
@@ -276,6 +278,12 @@ body {
   .esc-row:after {
     clear: both; }
 
+a,
+a:link,
+a:visited,
+a:hover {
+  text-decoration: none; }
+
 .section {
   float: left;
   position: relative;
@@ -294,12 +302,43 @@ body {
   .navbar ul, .navbar li {
     margin: 0;
     padding: 0; }
-  .navbar.nav-inline {
-    border: 1px solid black; }
-    .navbar.nav-inline li {
-      display: inline;
-      margin: 0 2px; }
+  .navbar.nav-inline li {
+    position: relative;
+    display: inline;
+    margin: 0 2px; }
+    .navbar.nav-inline li a {
+      display: inline-block;
+      padding: .5em .65em;
+      font-size: .85em;
+      color: #fff; }
   .navbar.pull-left ul {
     float: left; }
   .navbar.pull-right ul {
     float: right; }
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.doc-hero {
+  float: left;
+  clear: both;
+  width: 100%;
+  padding: 130px;
+  background: #2a303c;
+  text-align: center;
+  color: #fff; }
+  .doc-hero img {
+    width: 300px;
+    max-width: 100%;
+    height: auto; }
+  .doc-hero h1 {
+    font-size: 38px;
+    margin-bottom: 6px; }
+  .doc-hero cite {
+    font-size: 28px;
+    font-weight: 300;
+    font-style: normal; }
+  .doc-hero iframe {
+    margin: 15px 5px; }

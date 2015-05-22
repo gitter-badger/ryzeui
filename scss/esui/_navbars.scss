@@ -15,10 +15,16 @@
   // Inline Navbar
   //
   &.nav-inline {
-    border: 1px solid black;
     li {
+      position: relative;
       display: inline;
       margin: 0 2px;
+      a {
+        display: inline-block;
+        padding: .5em .65em;
+        font-size: .85em;
+        color: #fff;
+      }
     }
   }
   
