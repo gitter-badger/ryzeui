@@ -298,7 +298,7 @@ body {
     border: 1px solid black; }
     .navbar.nav-inline li {
       display: inline;
-      margin: 0 5; }
+      margin: 0 2px; }
   .navbar.pull-left ul {
     float: left; }
   .navbar.pull-right ul {
