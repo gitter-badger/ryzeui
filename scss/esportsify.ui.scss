@@ -2,6 +2,13 @@
 //  Setup ESUI
 //
 
+//  Dependencies
+//
+@import "normalize";
+@import "susy/language/susy";
+
+//  Framework
+//
 @import "esui/globals";
 @import "esui/config";
 @import "esui/mixins";
