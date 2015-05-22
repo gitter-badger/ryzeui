@@ -189,7 +189,16 @@ input[type="checkbox"], input[type="radio"] {
 *, div, input, :before, :after, select, textarea {
   box-sizing: border-box; }
 
+html, body {
+  margin: 0;
+  padding: 0; }
+
+html {
+  display: block;
+  height: 100vh; }
+
 body {
+  min-height: 100vh;
   background: #f8f8f8; }
 
 .esc-fluid {
@@ -265,4 +274,15 @@ body {
     content: " ";
     display: table; }
   .esc-row:after {
+    clear: both; }
+
+.section {
+  float: left;
+  position: relative;
+  clear: both;
+  width: 100%; }
+  .section:before, .section:after {
+    content: " ";
+    display: table; }
+  .section:after {
     clear: both; }
