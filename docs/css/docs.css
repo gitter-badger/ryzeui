@@ -286,3 +286,20 @@ body {
     display: table; }
   .section:after {
     clear: both; }
+
+.navbar {
+  float: left;
+  width: 100%;
+  background: #cb3837; }
+  .navbar ul, .navbar li {
+    margin: 0;
+    padding: 0; }
+  .navbar.nav-inline {
+    border: 1px solid black; }
+    .navbar.nav-inline li {
+      display: inline;
+      margin: 0 5; }
+  .navbar.pull-left ul {
+    float: left; }
+  .navbar.pull-right ul {
+    float: right; }

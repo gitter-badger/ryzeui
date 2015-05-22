@@ -267,7 +267,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/esui\/_navbars.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_navbars.css",
