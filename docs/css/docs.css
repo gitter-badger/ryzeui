@@ -201,7 +201,7 @@ html {
 body {
   min-height: 100vh;
   background: #f8f8f8;
-  font-size: 16px; }
+  font-size: 18px; }
 
 .esc-fluid {
   width: 100%;
@@ -280,9 +280,17 @@ body {
 
 a,
 a:link,
-a:visited,
-a:hover {
+a:active {
+  color: #4693e2;
   text-decoration: none; }
+  a:hover,
+  a:link:hover,
+  a:active:hover {
+    text-decoration: underline; }
+  a:visited,
+  a:link:visited,
+  a:active:visited {
+    color: #4693e2; }
 
 h1,
 h2,
@@ -294,26 +302,44 @@ h5 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.4em;
-  margin: 0 0 .333em 0;
+  margin: 0 0 .433em 0;
   color: #3f485a; }
+
+h1 {
+  font-size: 2em; }
+
+h2 {
+  font-size: 1.8em; }
+
+h3 {
+  font-size: 1.6em; }
+
+h4 {
+  font-size: 1.4em; }
+
+h5 {
+  font-size: 1.2em; }
 
 p {
   font-family: inherit;
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 1.111em;
-  color: #3f485a; }
+  font-size: 1em;
+  color: #3f485a;
+  margin: 0 0 .666em 0; }
   p.lead {
     font-size: 1.333em;
     color: #697896; }
+    p.lead + p {
+      margin-top: 1.3em; }
 
 hr {
   border: solid #DDDDDD;
   border-width: 1px 0 0;
   clear: both;
   height: 0;
-  margin: 1.11111rem 0 1.05556rem; }
+  margin: 2.222em 0 2.444em; }
 
 .section {
   float: left;
