@@ -18,7 +18,7 @@ body {
   background: #fff;
 }
 
-//  Top Nav
+// Top Nav
 //
 .nav-bar {
   background: #3a3a3a;
@@ -66,4 +66,5 @@ body {
 .doc {
   @include span(9 of 12 last);
   background: #fff;
+  padding: 32px 20px;
 }

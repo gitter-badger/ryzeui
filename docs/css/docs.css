@@ -284,6 +284,37 @@ a:visited,
 a:hover {
   text-decoration: none; }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: inherit;
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.4em;
+  margin: 0 0 .333em 0;
+  color: #3f485a; }
+
+p {
+  font-family: inherit;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.111em;
+  color: #3f485a; }
+  p.lead {
+    font-size: 1.333em;
+    color: #697896; }
+
+hr {
+  border: solid #DDDDDD;
+  border-width: 1px 0 0;
+  clear: both;
+  height: 0;
+  margin: 1.11111rem 0 1.05556rem; }
+
 .section {
   float: left;
   position: relative;
@@ -392,4 +423,5 @@ body {
   width: 74.5762711864%;
   float: right;
   margin-right: 0;
-  background: #fff; }
+  background: #fff;
+  padding: 32px 20px; }
