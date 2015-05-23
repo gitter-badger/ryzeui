@@ -44,21 +44,39 @@ h5 { font-size: 1.2em;}
 // Copy
 //
 p {
+  display: block;
   font-family: inherit;
   font-weight: 500;
   @include font-smoothing;
   font-size: 1em;
   color: lighten($night,10%);
   margin: 0 0 .666em 0;
+
   // Lead Copy
   //
   &.lead {
     font-size: 1.333em;
     color: lighten($night,30%);
-    // Following Paragraph
+
+    // Immediate Following Paragraph
+    //
     + p {
       margin-top: 1.3em;
     }
+  }
+
+  // Small Text
+  //
+  small {
+    font-weight: bold;
+  }
+
+  // Code Inline
+  //
+  code {
+    padding: 3px;
+    background: #f8f8f8;
+    border-radius: 3px;
   }
 }
 
@@ -70,4 +88,12 @@ hr {
   clear: both;
   height: 0;
   margin: 2.222em 0 2.444em; 
+}
+
+// Code
+//
+code {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: .8em;
+  color: $red;
 }

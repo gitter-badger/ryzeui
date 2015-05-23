@@ -321,6 +321,7 @@ h5 {
   font-size: 1.2em; }
 
 p {
+  display: block;
   font-family: inherit;
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
@@ -333,6 +334,12 @@ p {
     color: #697896; }
     p.lead + p {
       margin-top: 1.3em; }
+  p small {
+    font-weight: bold; }
+  p code {
+    padding: 3px;
+    background: #f8f8f8;
+    border-radius: 3px; }
 
 hr {
   border: solid #DDDDDD;
@@ -340,6 +347,11 @@ hr {
   clear: both;
   height: 0;
   margin: 2.222em 0 2.444em; }
+
+code {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: .8em;
+  color: #cb3837; }
 
 .section {
   float: left;
@@ -354,20 +366,32 @@ hr {
 
 .nav-bar {
   float: left;
+  clear: both;
   width: 100%;
-  background: #cb3837; }
-  .nav-bar ul, .nav-bar li {
+  height: 50px;
+  background: #3a3a3a; }
+  .nav-bar nav, .nav-bar ul, .nav-bar li {
     margin: 0;
     padding: 0; }
+  .nav-bar .nav-header {
+    float: left; }
+    .nav-bar .nav-header a.name {
+      display: inline-block;
+      padding: 1em .65em;
+      font-size: .85em;
+      font-weight: 700;
+      color: #fff; }
   .nav-bar.nav-inline li {
     position: relative;
     display: inline;
     margin: 0 2px; }
     .nav-bar.nav-inline li a {
       display: inline-block;
-      padding: .5em .65em;
+      padding: 1em .65em;
       font-size: .85em;
       color: #fff; }
+      .nav-bar.nav-inline li a:hover {
+        background: rgba(0, 0, 0, 0.2); }
   .nav-bar.pull-left ul {
     float: left; }
   .nav-bar.pull-right ul {
@@ -413,8 +437,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #fff; }
 
-.nav-bar {
-  background: #3a3a3a; }
+code.hljs {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 14px;
+  background: #f8f8f8;
+  padding: 1.6em;
+  border-radius: 5px; }
+
+p.doc-helper {
+  margin: 1em 0 .25em;
+  text-transform: uppercase; }
+
+.doc .nav-bar {
+  margin-bottom: 1em; }
 
 .doc-hero {
   float: left;

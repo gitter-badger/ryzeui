@@ -18,10 +18,27 @@ body {
   background: #fff;
 }
 
-// Top Nav
+// Code & HighlightJS
 //
-.nav-bar {
-  background: #3a3a3a;
+code.hljs {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 14px;
+  background: #f8f8f8;
+  padding: 1.6em;
+  border-radius: 5px;
+}
+
+// Typography
+//
+p.doc-helper {
+  margin: 1em 0 .25em;
+  text-transform: uppercase;
+}
+
+// Doc Top bar
+//
+.doc .nav-bar {
+  margin-bottom: 1em;
 }
 
 // Documentation
