@@ -295,31 +295,69 @@ a:hover {
   .section:after {
     clear: both; }
 
-.navbar {
+.nav-bar {
   float: left;
   width: 100%;
   background: #cb3837; }
-  .navbar ul, .navbar li {
+  .nav-bar ul, .nav-bar li {
     margin: 0;
     padding: 0; }
-  .navbar.nav-inline li {
+  .nav-bar.nav-inline li {
     position: relative;
     display: inline;
     margin: 0 2px; }
-    .navbar.nav-inline li a {
+    .nav-bar.nav-inline li a {
       display: inline-block;
       padding: .5em .65em;
       font-size: .85em;
       color: #fff; }
-  .navbar.pull-left ul {
+  .nav-bar.pull-left ul {
     float: left; }
-  .navbar.pull-right ul {
+  .nav-bar.pull-right ul {
     float: right; }
+
+.nav-side {
+  float: left;
+  width: 100%; }
+  .nav-side ul, .nav-side li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+  .nav-side li {
+    float: left;
+    clear: both;
+    width: 100%;
+    margin: 0; }
+    .nav-side li.heading {
+      color: #4693e2;
+      font-size: 0.77778em;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding: 4px 0; }
+    .nav-side li.divider {
+      margin: 16px 0;
+      padding: 0;
+      height: 0;
+      border-top: 1px solid #e6e6e6; }
+    .nav-side li a {
+      font-size: 0.8899em;
+      color: #1e6dbe;
+      display: block;
+      line-height: 26px; }
+      .nav-side li a:hover {
+        margin: 0 -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background: rgba(0, 0, 0, 0.03); }
 
 body {
   font-family: "Source Sans Pro", sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+  background: #fff; }
+
+.nav-bar {
+  background: #3a3a3a; }
 
 .doc-hero {
   float: left;
@@ -342,3 +380,16 @@ body {
     font-style: normal; }
   .doc-hero iframe {
     margin: 15px 5px; }
+
+.docs-aside {
+  width: 23.7288135593%;
+  float: left;
+  margin-right: 1.6949152542%;
+  background: #fafafa;
+  padding: 32px 20px; }
+
+.doc {
+  width: 74.5762711864%;
+  float: right;
+  margin-right: 0;
+  background: #fff; }
