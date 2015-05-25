@@ -451,6 +451,54 @@ code {
   .breadcrumb > .active {
     color: #777; }
 
+.pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 4px;
+  font-size: 0.8555em; }
+  .pagination.pagination-bordered > li:first-child > a {
+    border-radius: 3px 0 0 3px; }
+  .pagination.pagination-bordered > li:last-child > a {
+    border-radius: 0 3px 3px 0; }
+  .pagination.pagination-bordered > li > a {
+    border: 1px solid #ddd;
+    border-radius: none; }
+    .pagination.pagination-bordered > li > a:hover {
+      background-color: #f8f8f8;
+      text-decoration: none; }
+  .pagination.pagination-bordered > li.active > a, .pagination.pagination-bordered > li.active > a:hover, .pagination.pagination-bordered > li.active > a:active, .pagination.pagination-bordered > li.active > a:focus {
+    border-radius: 0px;
+    border-color: #3086df; }
+  .pagination.center {
+    margin: 20px auto;
+    display: table;
+    padding: 0; }
+  .pagination.pull-right {
+    float: right;
+    padding-right: 0px; }
+  .pagination > li {
+    display: inline; }
+    .pagination > li > a {
+      position: relative;
+      float: left;
+      padding: 6px 12px;
+      margin-left: -1px;
+      line-height: 1.42857143;
+      text-decoration: none;
+      background: #fff;
+      border: none; }
+    .pagination > li.active > a,
+    .pagination > li.active > a:hover,
+    .pagination > li.active > a:active,
+    .pagination > li.active > a:focus {
+      background-color: #4693e2;
+      color: #fff;
+      cursor: default;
+      z-index: 1;
+      border-radius: 3px;
+      text-decoration: none; }
+
 body {
   font-family: "Source Sans Pro", sans-serif;
   -webkit-font-smoothing: antialiased;

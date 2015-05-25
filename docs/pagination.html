@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>EsportsifyUI - Top Navs</title>
+  <title>EsportsifyUI - Pagination</title>
   <meta name="description" content="">
 
   <link rel="icon" type="image/x-icon" href="../favicon.ico" />
@@ -83,38 +83,79 @@
 
     <div class="doc">
       <!-- Top Nav -->
-      <h1>Breadcrumbs</h1>
-      <p class="lead">Breadcrumbs are used to show a navigation trail for users clicking through multiple pages within your site. They clearly indicate the current page location within a navigational heirarchy.</p>
+      <h1>Pagination</h1>
+      <p class="lead">Pagination indiciates to users that they are viewing a set of content divided into a number of pages.</p>
 
       <hr>
       
       <p class="doc-helper"><small>Demo</small></p>
       <div class="doc-example">
-        <ol class="breadcrumb">
-          <li class="active">Home</li>
-        </ol>
-        <ol class="breadcrumb">
-          <li><a href="#">Home</a></li>
-          <li class="active">Library</li>
-        </ol>
-        <ol class="breadcrumb">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Library</a></li>
-          <li class="active">Data</li>
-        </ol>
+        <nav role="menubar" aria-label="Pagination">
+          <ul class="pagination">
+            <li><a href="#" aria-label="Previous">&laquo;</a></li>
+            <li><a href="#">1</a></li>
+            <li class="active"><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#" aria-label="Next">&raquo;</a></li>
+          </ul>
+        </nav>
       </div>
 
       <p class="doc-helper"><small>HTML</small></p>
-      <script src="https://gist.github.com/mattsince87/cfea37d6d346641231c3.js"></script>
+      <script src="https://gist.github.com/mattsince87/5dd53092b04d772dde65.js"></script>
 
       <hr>
 
       <h3>Accessibility</h3>
-      <p>Breadcrumbs are not part of the structured site navigation and therefore do not require a <code>role=""</code> attribute.</p>
+      <p>By adding the <code>role="menubar"</code> attribute to the <code>&lt;nav&gt;</code> property allows screen readers to distinguish this content type.</p>
+      <hr>
+
+      <h3>Helper Classes</h3>
+      <p>As shown in the examples below, a bordered version can be set to overwrite the default style by using the additional class <code>pagination-bordered</code>.</p>
+      <div class="doc-example">
+        <nav role="menubar" aria-label="Pagination">
+          <ul class="pagination pagination-bordered">
+            <li><a href="#" aria-label="Previous">&laquo;</a></li>
+            <li><a href="#">1</a></li>
+            <li class="active"><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#" aria-label="Next">&raquo;</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p>To position your pagination with more flexibility, you can alternatively align your menu to the center or to the right by using the <code>pull-right</code> and <code>&lt;center&gt;</code> additional classes.</p>
+      <div class="doc-example">
+        <nav role="menubar" aria-label="Pagination">
+          <ul class="pagination pagination-bordered center">
+            <li><a href="#" aria-label="Previous">&laquo;</a></li>
+            <li><a href="#">1</a></li>
+            <li class="active"><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#" aria-label="Next">&raquo;</a></li>
+          </ul>
+        </nav>
+        <nav role="menubar" aria-label="Pagination">
+          <ul class="pagination pagination-bordered pull-right">
+            <li><a href="#" aria-label="Previous">&laquo;</a></li>
+            <li><a href="#">1</a></li>
+            <li class="active"><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#" aria-label="Next">&raquo;</a></li>
+          </ul>
+        </nav>
+      </div>
       <hr>
 
       <h3>GitHub</h3>
-      <p>Take a look at this components <b>SASS</b> file on <a href="https://github.com/mattsince87/esportsifyui/blob/master/scss/esui/_navside.scss">GitHub</a>.</p>
+      <p>Take a look at this components <b>SASS</b> file on <a href="https://github.com/mattsince87/esportsifyui/blob/master/scss/esui/_pagination.scss">GitHub</a>.</p>
 
     </div>
   </div>
