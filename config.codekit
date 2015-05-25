@@ -2,11 +2,11 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18966",
 "files": {
-	"\/dist\/esportsify.ui.min.css": {
+	"\/dist\/ryze.ui.min.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dist\/esportsify.ui.min.css",
+		"inputAbbreviatedPath": "\/dist\/ryze.ui.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -107,7 +107,7 @@
 		"outputAbbreviatedPath": "\/docs\/css\/docs.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
 		"useLibsass": 0
@@ -117,6 +117,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/docs\/sidenav.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/docs\/switches.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/docs\/switches.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -151,22 +160,6 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/scss\/_esui.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/_esui.scss",
-		"outputAbbreviatedPath": "\/css\/_esui.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/scss\/_normalize.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -176,6 +169,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/_normalize.scss",
 		"outputAbbreviatedPath": "\/css\/_normalize.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_rzui.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_rzui.scss",
+		"outputAbbreviatedPath": "\/css\/_rzui.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -231,24 +240,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/css\/_navbars.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/css\/_navbars.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/scss\/esportsify.ui.scss": {
+	"\/scss\/ryze.ui.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/esportsify.ui.scss",
-		"outputAbbreviatedPath": "\/dist\/esportsify.ui.min.css",
+		"inputAbbreviatedPath": "\/scss\/ryze.ui.scss",
+		"outputAbbreviatedPath": "\/dist\/ryze.ui.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 3,
@@ -256,14 +256,14 @@
 		"shouldRunBless": 1,
 		"useLibsass": 0
 		},
-	"\/scss\/esui\/_breadcrumbs.scss": {
+	"\/scss\/ryzeui\/_breadcrumbs.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/esui\/_breadcrumbs.scss",
+		"inputAbbreviatedPath": "\/scss\/ryzeui\/_breadcrumbs.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_breadcrumbs.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -272,14 +272,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/esui\/_buttons.scss": {
+	"\/scss\/ryzeui\/_buttons.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/esui\/_buttons.scss",
+		"inputAbbreviatedPath": "\/scss\/ryzeui\/_buttons.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_buttons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -288,14 +288,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/esui\/_colors.scss": {
+	"\/scss\/ryzeui\/_colors.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/esui\/_colors.scss",
+		"inputAbbreviatedPath": "\/scss\/ryzeui\/_colors.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_colors.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -304,14 +304,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/esui\/_config.scss": {
+	"\/scss\/ryzeui\/_config.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/esui\/_config.scss",
+		"inputAbbreviatedPath": "\/scss\/ryzeui\/_config.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_config.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -320,14 +320,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/esui\/_forms.scss": {
+	"\/scss\/ryzeui\/_forms.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/esui\/_forms.scss",
+		"inputAbbreviatedPath": "\/scss\/ryzeui\/_forms.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_forms.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -336,14 +336,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/esui\/_globals.scss": {
+	"\/scss\/ryzeui\/_globals.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/esui\/_globals.scss",
+		"inputAbbreviatedPath": "\/scss\/ryzeui\/_globals.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_globals.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -352,14 +352,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/esui\/_mixins.scss": {
+	"\/scss\/ryzeui\/_mixins.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/esui\/_mixins.scss",
+		"inputAbbreviatedPath": "\/scss\/ryzeui\/_mixins.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_mixins.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -368,14 +368,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/esui\/_navbars.scss": {
+	"\/scss\/ryzeui\/_navbars.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/esui\/_navbars.scss",
+		"inputAbbreviatedPath": "\/scss\/ryzeui\/_navbars.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_navbars.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -384,14 +384,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/esui\/_navside.scss": {
+	"\/scss\/ryzeui\/_navside.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/esui\/_navside.scss",
+		"inputAbbreviatedPath": "\/scss\/ryzeui\/_navside.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_navside.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -400,14 +400,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/esui\/_pagination.scss": {
+	"\/scss\/ryzeui\/_pagination.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/esui\/_pagination.scss",
+		"inputAbbreviatedPath": "\/scss\/ryzeui\/_pagination.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_pagination.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -416,14 +416,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/esui\/_sections.scss": {
+	"\/scss\/ryzeui\/_sections.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/esui\/_sections.scss",
+		"inputAbbreviatedPath": "\/scss\/ryzeui\/_sections.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_sections.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -432,14 +432,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/esui\/_skeleton.scss": {
+	"\/scss\/ryzeui\/_skeleton.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/esui\/_skeleton.scss",
+		"inputAbbreviatedPath": "\/scss\/ryzeui\/_skeleton.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_skeleton.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -448,14 +448,30 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/esui\/_typography.scss": {
+	"\/scss\/ryzeui\/_switches.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/esui\/_typography.scss",
+		"inputAbbreviatedPath": "\/scss\/ryzeui\/_switches.scss",
+		"outputAbbreviatedPath": "\/scss\/css\/_switches.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/ryzeui\/_typography.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/ryzeui\/_typography.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_typography.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -464,15 +480,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/esui\/mixins\/_breakpoints.scss": {
+	"\/scss\/ryzeui\/mixins\/_breakpoints.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/esui\/mixins\/_breakpoints.scss",
-		"outputAbbreviatedPath": "\/scss\/esui\/css\/_breakpoints.css",
+		"inputAbbreviatedPath": "\/scss\/ryzeui\/mixins\/_breakpoints.scss",
+		"outputAbbreviatedPath": "\/scss\/ryzeui\/css\/_breakpoints.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -480,15 +496,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/esui\/mixins\/_clearfix.scss": {
+	"\/scss\/ryzeui\/mixins\/_clearfix.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/esui\/mixins\/_clearfix.scss",
-		"outputAbbreviatedPath": "\/scss\/esui\/css\/_clearfix.css",
+		"inputAbbreviatedPath": "\/scss\/ryzeui\/mixins\/_clearfix.scss",
+		"outputAbbreviatedPath": "\/scss\/ryzeui\/css\/_clearfix.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -496,15 +512,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/esui\/mixins\/_font-smoothing.scss": {
+	"\/scss\/ryzeui\/mixins\/_font-smoothing.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/esui\/mixins\/_font-smoothing.scss",
-		"outputAbbreviatedPath": "\/scss\/esui\/css\/_font-smoothing.css",
+		"inputAbbreviatedPath": "\/scss\/ryzeui\/mixins\/_font-smoothing.scss",
+		"outputAbbreviatedPath": "\/scss\/ryzeui\/css\/_font-smoothing.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
