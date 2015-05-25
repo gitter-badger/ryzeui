@@ -35,10 +35,18 @@ p.doc-helper {
   text-transform: uppercase;
 }
 
-// Doc Top bar
+// Doc Navs
 //
 .doc .nav-bar {
   margin-bottom: 1em;
+}
+
+// Doc Helper
+//
+.doc-example {
+  float: left;
+  clear: both;
+  width: 100%;
 }
 
 // Documentation
@@ -74,8 +82,6 @@ p.doc-helper {
 //
 .docs-aside {
   @include span(3 of 12);
-  background: #fafafa;
-  padding: 32px 20px;
 }
 
 // Document Containment

@@ -399,7 +399,9 @@ code {
 
 .nav-side {
   float: left;
-  width: 100%; }
+  width: 100%;
+  background: #fafafa;
+  padding: 32px 20px; }
   .nav-side ul, .nav-side li {
     margin: 0;
     padding: 0;
@@ -430,6 +432,24 @@ code {
         padding-left: 20px;
         padding-right: 20px;
         background: rgba(0, 0, 0, 0.03); }
+      .nav-side li a.active {
+        font-weight: bold; }
+
+.breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  list-style: none;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  font-size: 0.8em; }
+  .breadcrumb > li {
+    display: inline-block; }
+    .breadcrumb > li + li:before {
+      padding: 0 5px;
+      color: #ccc;
+      content: "/\00a0"; }
+  .breadcrumb > .active {
+    color: #777; }
 
 body {
   font-family: "Source Sans Pro", sans-serif;
@@ -450,6 +470,11 @@ p.doc-helper {
 
 .doc .nav-bar {
   margin-bottom: 1em; }
+
+.doc-example {
+  float: left;
+  clear: both;
+  width: 100%; }
 
 .doc-hero {
   float: left;
@@ -476,9 +501,7 @@ p.doc-helper {
 .docs-aside {
   width: 23.7288135593%;
   float: left;
-  margin-right: 1.6949152542%;
-  background: #fafafa;
-  padding: 32px 20px; }
+  margin-right: 1.6949152542%; }
 
 .doc {
   width: 74.5762711864%;

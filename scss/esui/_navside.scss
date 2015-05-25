@@ -5,6 +5,8 @@
 .nav-side {
   float: left;
   width: 100%;
+  background: #fafafa;
+  padding: 32px 20px;
 
   ul, li {
     margin: 0;
@@ -44,13 +46,18 @@
       color: darken($blue,15%);
       display: block;
       line-height: 26px;
-      // Hover
+      // Hover & Active
       //
       &:hover {
         margin: 0 -20px;
         padding-left: 20px;
         padding-right: 20px;
         background: rgba(0,0,0,.03);
+      }
+      // Active
+      //
+      &.active {
+        font-weight: bold;
       }
     }
   }
