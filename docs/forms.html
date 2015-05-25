@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>EsportsifyUI - Pagination</title>
+  <title>EsportsifyUI - Forms</title>
   <meta name="description" content="">
 
   <link rel="icon" type="image/x-icon" href="../favicon.ico" />
@@ -50,11 +50,11 @@
           <li><a href="topnav.html">Top Nav</a></li>
           <li><a href="sidenav.html">Side Nav</a></li>
           <li><a href="breadcrumbs.html">Breadcrumbs</a></li>
-          <li><a class="active" href="pagination.html">Pagination</a></li>
+          <li><a href="pagination.html">Pagination</a></li>
           <li class="divider"></li>
           <!-- Forms -->
           <li class="heading">Forms</li>
-          <li><a href="forms.html">Forms</a></li>
+          <li><a class="active" href="forms.html">Forms</a></li>
           <li><a href="switches.html">Switches</a></li>
           <li><a href="range.html">Range Sliders</a></li>
           <li class="divider"></li>
@@ -81,75 +81,84 @@
 
     <div class="doc">
       <!-- Top Nav -->
-      <h1>Pagination</h1>
-      <p class="lead">Pagination indiciates to users that they are viewing a set of content divided into a number of pages.</p>
+      <h1>Forms</h1>
+      <p class="lead">Using forms with EsportsifyUI is simple. We have aimed to minimize the amount of markup changes needed to control their layouts.</p>
 
       <hr>
       
       <p class="doc-helper"><small>Demo</small></p>
       <div class="doc-example">
-        <nav role="menubar" aria-label="Pagination">
-          <ul class="pagination">
-            <li><a href="#" aria-label="Previous">&laquo;</a></li>
-            <li><a href="#">1</a></li>
-            <li class="active"><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-            <li><a href="#">5</a></li>
-            <li><a href="#" aria-label="Next">&raquo;</a></li>
-          </ul>
-        </nav>
+        <form role="form">
+          <div class="form-row">
+            <label for="ipt1">Email address</label>
+            <input type="email" id="ipt1" placeholder="Enter email">
+          </div>
+          <div class="form-row">
+            <label for="ipt2">Password</label>
+            <input type="password" id="ipt2" placeholder="Password">
+            <div class="form-helper">Help text here. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio repellendus magni hic veritatis. Facilis, <code>corrupti</code> ipsum obcaecati earum dignissimos quae officia quo quos, veritatis maiores ducimus tenetur.</div>
+          </div>
+          <div class="form-row">
+            <label for="ipt3">File input</label>
+            <input type="file" id="ipt3">
+          </div>
+          <div class="form-row">
+            <textarea rows="6" placeholder="Your comments"></textarea>
+          </div>
+          <div class="form-row">
+            <button type="submit" class="btn btn-default">Submit</button>
+          </div>
+          <div class="form-row checkbox">
+            <input id="check1" type="checkbox">
+            <label for="check1">Remember me</label>
+          </div>
+        </form>
       </div>
 
       <p class="doc-helper"><small>HTML</small></p>
-      <script src="https://gist.github.com/mattsince87/5dd53092b04d772dde65.js"></script>
+      <script src="https://gist.github.com/mattsince87/9e03d5fd1a420edfb13f.js"></script>
 
       <hr>
 
       <h3>Accessibility</h3>
-      <p>By adding the <code>role="menubar"</code> attribute to the <code>&lt;nav&gt;</code> property allows screen readers to distinguish this content type.</p>
+      <p>Forms utilise the browsers standard accessibility features.</p>
       <hr>
 
       <h3>Helper Classes</h3>
-      <p>As shown in the examples below, a bordered version can be set to overwrite the default style by using the additional class <code>pagination-bordered</code>.</p>
+      <p>EsportsifyUI allows you to display your forms with more flexibility. To display your form controls and their labels inline simply add the class <code>inline</code> to your <code>&lt;form&gt;</code> tag.</p>
       <div class="doc-example">
-        <nav role="menubar" aria-label="Pagination">
-          <ul class="pagination pagination-bordered">
-            <li><a href="#" aria-label="Previous">&laquo;</a></li>
-            <li><a href="#">1</a></li>
-            <li class="active"><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-            <li><a href="#">5</a></li>
-            <li><a href="#" aria-label="Next">&raquo;</a></li>
-          </ul>
-        </nav>
+        <form role="form" class="inline">
+          <div class="form-row">
+            <label for="ipt11">Email address</label>
+            <input type="email" id="ipt1" placeholder="Enter email">
+          </div>
+          <div class="form-row">
+            <label for="ipt12">Password</label>
+            <input type="password" id="ipt2" placeholder="Password">
+            <div class="form-helper">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+          </div>
+          <div class="form-row">
+            <button type="submit" class="btn btn-default">Submit</button>
+          </div>
+          <div class="form-row checkbox">
+            <input id="check2" type="checkbox">
+            <label for="check2">Remember me</label>
+          </div>
+        </form>
       </div>
-      <p>To position your pagination with more flexibility, you can alternatively align your menu to the center or to the right by using the <code>pull-right</code> and <code>center</code> additional classes.</p>
+      <hr>
+
+      <h3>Search Form</h3>
+      <p>The EsportsifyUI search form has been constructed to include all UI components necessary for a rich user experience. It takes advantage of flexbox which you can read more about <a target="_blank" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">here</a>.</p>
+      <p class="doc-helper"><small>Search Demo</small></p>
       <div class="doc-example">
-        <nav role="menubar" aria-label="Pagination">
-          <ul class="pagination pagination-bordered center">
-            <li><a href="#" aria-label="Previous">&laquo;</a></li>
-            <li><a href="#">1</a></li>
-            <li class="active"><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-            <li><a href="#">5</a></li>
-            <li><a href="#" aria-label="Next">&raquo;</a></li>
-          </ul>
-        </nav>
-        <nav role="menubar" aria-label="Pagination">
-          <ul class="pagination pagination-bordered pull-right">
-            <li><a href="#" aria-label="Previous">&laquo;</a></li>
-            <li><a href="#">1</a></li>
-            <li class="active"><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-            <li><a href="#">5</a></li>
-            <li><a href="#" aria-label="Next">&raquo;</a></li>
-          </ul>
-        </nav>
+        <form role="form" class="search">
+          <input type="search" required placeholder="Search EsportsifyUI">
+          <button class="close-icon" type="reset"></button>
+          <button class="btn btn-default">Go</button>
+        </form>
       </div>
+      <p><i>Note.</i> Flexbox works on <b>all modern browsers</b>, see which <a target="_blank" href="http://caniuse.com/#search=flexbox">here</a>.</p>
       <hr>
 
       <h3>GitHub</h3>
